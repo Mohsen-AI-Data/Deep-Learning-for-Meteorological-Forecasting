@@ -4,20 +4,20 @@ import pandas as pd
 pd.set_option("display.max_columns", None)  # Show all columns
 pd.set_option("display.max_rows", None)  # Show all rows
 
-df_tem_max = pd.read_csv("data_sets/Temperature/CLMMAXT_KP_.csv")
-df_tem_min = pd.read_csv("data_sets/Temperature/CLMMINT_KP_.csv")
-df_tem_mean = pd.read_csv("data_sets/Temperature/CLMTEMP_KP_.csv")
-df_cloud = pd.read_csv("data_sets/Amount_of_Cloud/daily_HKO_CLD_ALL.csv")
-df_evaporation = pd.read_csv("data_sets/Evaporation/daily_KP_EVAP_ALL.csv")
-df_sunshine = pd.read_csv("data_sets/Bright Sunshine/daily_KP_SUN_ALL.csv")
-df_humidity = pd.read_csv("data_sets/humidity/daily_KP_RH_ALL.csv")
-df_global_solar_radiation = pd.read_csv("data_sets/Global Solar Radiation/daily_KP_GSR_ALL.csv")
-df_mean_pressure = pd.read_csv("data_sets/Mean Pressure /daily_HKO_MSLP_ALL.csv")
-df_wind_direction = pd.read_csv("data_sets/Prevailing Wind Direction/daily_KP_PDIR_ALL.csv")
-df_wind_speed = pd.read_csv("data_sets/Wind Speed/daily_KP_WSPD_ALL.csv")
-df_rainfall= pd.read_csv("data_sets/Rainfall/daily_KP_RF_ALL.csv")
-df_UV_max = pd.read_csv("data_sets/UV/daily_KP_MAXUV_ALL.csv")
-df_UV_mean = pd.read_csv("data_sets/UV/daily_KP_UV_ALL.csv")
+df_tem_max = pd.read_csv("Datasets/Temperature/CLMMAXT_KP_.csv")
+df_tem_min = pd.read_csv("Datasets/Temperature/CLMMINT_KP_.csv")
+df_tem_mean = pd.read_csv("Datasets/Temperature/CLMTEMP_KP_.csv")
+df_cloud = pd.read_csv("Datasets/Amount_of_Cloud/daily_HKO_CLD_ALL.csv")
+df_evaporation = pd.read_csv("Datasets/Evaporation/daily_KP_EVAP_ALL.csv")
+df_sunshine = pd.read_csv("Datasets/Bright Sunshine/daily_KP_SUN_ALL.csv")
+df_humidity = pd.read_csv("Datasets/humidity/daily_KP_RH_ALL.csv")
+df_global_solar_radiation = pd.read_csv("Datasets/Global Solar Radiation/daily_KP_GSR_ALL.csv")
+df_mean_pressure = pd.read_csv("Datasets/Mean Pressure /daily_HKO_MSLP_ALL.csv")
+df_wind_direction = pd.read_csv("Datasets/Prevailing Wind Direction/daily_KP_PDIR_ALL.csv")
+df_wind_speed = pd.read_csv("Datasets/Wind Speed/daily_KP_WSPD_ALL.csv")
+df_rainfall= pd.read_csv("Datasets/Rainfall/daily_KP_RF_ALL.csv")
+df_UV_max = pd.read_csv("Datasets/UV/daily_KP_MAXUV_ALL.csv")
+df_UV_mean = pd.read_csv("Datasets/UV/daily_KP_UV_ALL.csv")
 
 # List contain all data frames' names
 dataframes = [df_tem_max, df_tem_min, df_tem_mean, df_cloud, df_evaporation,
