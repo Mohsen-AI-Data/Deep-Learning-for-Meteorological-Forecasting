@@ -30,6 +30,7 @@ This project utilizes Long Short-Term Memory (LSTM) networks for weather predict
 
 Initially developed for learning purposes, this repository compiles various models and architectures I've explored, making it a valuable resource for others interested in deep learning.
 
+
 LSTM networks are particularly effective for this task as they can capture complex patterns in time-series data. Historical weather data is organized into fixed-length sequences—specifically, `a sequence length of 7 days`. This allows the model to predict weather conditions for `the next 1, 2, or 4 days` based on the preceding week. The output sequences include the forecasted values for `temperature`, `humidity` and `UV index`.
 
 ## Data Collection
